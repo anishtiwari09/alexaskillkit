@@ -1,0 +1,46 @@
+{
+    "catFactData": {
+        "type": "object",
+        "title": "Choose the subject",
+        "backgroundImageUrl": {
+            "url": "https://wallpaperaccess.com/full/212745.jpg"
+        },
+        "properties": {
+            "catFactSsml": "<speak>Maths</speak>",
+            "catFactSsml2": "<speak>Science</speak>",
+            "catFactSsml3": "<speak>Social</speak>"
+        },
+        "transformers": [
+            {
+                "inputPath": "catFactSsml",
+                "outputName": "catFactSpeech",
+                "transformer": "ssmlToSpeech"
+            },
+            {
+                "inputPath": "catFactSsml2",
+                "outputName": "catFactSpeech2",
+                "transformer": "ssmlToSpeech"
+            },
+            {
+                "inputPath": "catFactSsml3",
+                "outputName": "catFactSpeech3",
+                "transformer": "ssmlToSpeech"
+            },
+            {
+                "inputPath": "catFactSsml",
+                "outputName": "catFact",
+                "transformer": "ssmlToText"
+            },
+            {
+                "inputPath": "catFactSsml2",
+                "outputName": "catFact2",
+                "transformer": "ssmlToText"
+            },
+            {
+                "inputPath": "catFactSsml3",
+                "outputName": "catFact3",
+                "transformer": "ssmlToText"
+            }
+        ]
+    }
+}

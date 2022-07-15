@@ -1,0 +1,136 @@
+{
+    "type": "APL",
+    "version": "1.0",
+    "theme": "dark",
+    "import": [],
+    "resources": [
+        {
+            "description": "Common margins and padding",
+            "dimensions": {
+                "marginTop": 40,
+                "marginLeft": 60,
+                "marginRight": 60,
+                "marginBottom": 40
+            }
+        },
+        {
+            "description": "Standard font sizes",
+            "dimensions": {
+                "textSizeBody": 48,
+                "textSizePrimary": 27,
+                "textSizeSecondary": 23,
+                "textSizeDetails": 20,
+                "textSizeSecondaryHint": 25
+            }
+        }
+    ],
+    "styles": {
+        "myStyle": {
+            "values": [
+                {
+                    "color": "white",
+                    "fontWeight": 300,
+                    "fontSize": "${viewport.height > 400 ? 30 : 20}"
+                },
+                {
+                    "when": "${state.karaoke}",
+                    "color": "orange",
+                    "fontWeight": 700,
+                    "fontSize": "${viewport.height > 400 ? 40 : 30}"
+                },
+                {
+                    "when": "${state.karaokeTarget}",
+                    "color": "white",
+                    "fontWeight": 300,
+                    "fontSize": "${viewport.height > 400 ? 30 : 20}"
+                }
+            ]
+        },
+        "headerStyle": {
+            "values": [
+                {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "align": "center",
+                    "fontSize": "${viewport.height > 400 ? 40 : 30}"
+                }
+            ]
+        }
+    },
+    "layouts": {
+        "ListItemTemplate": {
+            "parameters": [
+                "listData"
+            ],
+            "items": [
+                {
+                    "type": "Sequence",
+                    "id": "mySequence",
+                    "width": "100vw",
+                    "height": "100vh",
+                    "items": [
+                        {
+                            "type": "Text",
+                            "id": "catFactText",
+                            "text": "${listData.catFact}",
+                            "speech": "${listData.catFactSpeech}",
+                            "style": "myStyle"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "catFactText2",
+                            "text": "${listData.catFact2}",
+                            "speech": "${listData.catFactSpeech2}",
+                            "style": "myStyle"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "catFactText3",
+                            "text": "${listData.catFact3}",
+                            "speech": "${listData.catFactSpeech3}",
+                            "style": "myStyle"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "item": [
+            {
+                "type": "Container",
+                "direction": "column",
+                "items": [
+                    {
+                        "type": "Image",
+                        "source": "${payload.catFactData.backgroundImageUrl.url}",
+                        "scale": "best-fill",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "position": "absolute",
+                        "overlayColor": "rgba(black,0.5)"
+                    },
+                    {
+                        "type": "Text",
+                        "id": "catFactText3",
+                        "text": "${payload.catFactData.title}",
+                        "style": "headerStyle",
+                        "paddingTop": 20,
+                        "paddingLeft": 20
+                    },
+                    {
+                        "type": "ListItemTemplate",
+                        "width": "100vw",
+                        "height": "85vh",
+                        "listData": "${payload.catFactData.properties}",
+                        "paddingLeft": 20,
+                        "paddingTop": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

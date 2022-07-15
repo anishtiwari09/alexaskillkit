@@ -1,0 +1,139 @@
+{
+    "listTemplate2Metadata": {
+        "type": "object",
+        "objectId": "lt1Metadata",
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://wisdomleap-hls-playback.s3.amazonaws.com/images/05.jpg",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://wisdomleap-hls-playback.s3.amazonaws.com/images/05.jpg",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "title": "Badges",
+        "logoUrl": "https://wisdomleap-hls-playback.s3.amazonaws.com/images/beGalileo_logo.png"
+    },
+    "listTemplate2ListData": {
+        "type": "list",
+        "listId": "lt2Sample",
+        "totalNumberOfItems": 10,
+        "hintText": "",
+        "listPage": {
+            "listItems": [
+                {
+                    "listItemIdentifier": "brie",
+                    "ordinalNumber": 1,
+                    "textContent": {
+                        "primaryText": {
+                            "type": "PlainText",
+                            "text": "Count : 3"
+                        },
+                        "secondaryText": {
+                            "type": "PlainText",
+                            "text": "Mastered two concepts"
+                        }
+                    },
+                    "image": {
+                        "contentDescription": null,
+                        "smallSourceUrl": null,
+                        "largeSourceUrl": null,
+                        "sources": [
+                            {
+                                "url": "https://www.begalileo.com/system/badges/photos/000/000/060/original/rock-star-big.png",
+                                "size": "small",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            },
+                            {
+                                "url": "https://www.begalileo.com/system/badges/photos/000/000/060/original/rock-star-big.png",
+                                "size": "large",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            }
+                        ]
+                    },
+                    "token": "brie"
+                },
+                {
+                    "listItemIdentifier": "gruyere",
+                    "ordinalNumber": 2,
+                    "textContent": {
+                        "primaryText": {
+                            "type": "PlainText",
+                            "text": "Count : 3"
+                        },
+                        "secondaryText": {
+                            "type": "RichText",
+                            "text": "Mastered five concepts"
+                        }
+                    },
+                    "image": {
+                        "contentDescription": null,
+                        "smallSourceUrl": null,
+                        "largeSourceUrl": null,
+                        "sources": [
+                            {
+                                "url": "https://www.begalileo.com/system/badges/photos/000/000/059/original/cracker-jack-big.png",
+                                "size": "small",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            },
+                            {
+                                "url": "https://www.begalileo.com/system/badges/photos/000/000/059/original/cracker-jack-big.png",
+                                "size": "large",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            }
+                        ]
+                    },
+                    "token": "gruyere"
+                },
+                {
+                    "listItemIdentifier": "gruyere",
+                    "ordinalNumber": 2,
+                    "textContent": {
+                        "primaryText": {
+                            "type": "PlainText",
+                            "text": "Count : 3"
+                        },
+                        "secondaryText": {
+                            "type": "RichText",
+                            "text": "Mastered five concepts"
+                        }
+                    },
+                    "image": {
+                        "contentDescription": null,
+                        "smallSourceUrl": null,
+                        "largeSourceUrl": null,
+                        "sources": [
+                            {
+                                "url": "https://www.begalileo.com/system/badges/photos/000/000/059/original/cracker-jack-big.png",
+                                "size": "small",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            },
+                            {
+                                "url": "https://www.begalileo.com/system/badges/photos/000/000/059/original/cracker-jack-big.png",
+                                "size": "large",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            }
+                        ]
+                    },
+                    "token": "gruyere"
+                }
+            ]
+        }
+    }
+}

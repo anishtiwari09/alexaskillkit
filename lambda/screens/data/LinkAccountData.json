@@ -1,0 +1,43 @@
+{
+    "bodyTemplate1Data": {
+        "type": "object",
+        "objectId": "bt1Sample",
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://wisdomleap-hls-playback.s3.amazonaws.com/images/01.jpg",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://wisdomleap-hls-playback.s3.amazonaws.com/images/01.jpg",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "title": "beGalileo",
+        "textContent": {
+            "primaryText": {
+                "type": "PlainText",
+                "text": "Account Linking Required"
+            }
+        },
+        "menuListData": {
+            "type": "list",
+            "listId": "lt1Sample",
+            "totalNumberOfItems": 10,
+            "listPage": {
+                "question": "Please link your beGalileo account to use this skill",
+                "option_a": "Alexa App : Open Menu->Skills->beGalileo->link account",
+                "option_b": "alexa.amazon.com : Open Your Skills->beGalileo->Link Account"
+            }
+        },
+        "logoUrl": "https://wisdomleap-hls-playback.s3.amazonaws.com/images/beGalileo_logo.png"
+    }
+}

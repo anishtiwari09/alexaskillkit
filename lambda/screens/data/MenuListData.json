@@ -1,0 +1,86 @@
+{
+    "bodyTemplate1Data": {
+        "type": "object",
+        "objectId": "bt1Sample",
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://www.begalileo.com/assets/blc/begalileo-math-learning-center-homepage-banner-c396fa447430913c89ab574d1e3155f3af5c929db2f9d9c4a22db9a2a91d8563.png",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://www.begalileo.com/assets/blc/begalileo-math-learning-center-homepage-banner-c396fa447430913c89ab574d1e3155f3af5c929db2f9d9c4a22db9a2a91d8563.png",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "title": "beGalileo",
+        "textContent": {
+            "primaryText": {
+                "type": "PlainText",
+                "text": "Main Menu"
+            }
+        },
+        "menuListData": {
+            "type": "list",
+            "listId": "lt1Sample",
+            "totalNumberOfItems": 10,
+            "listPage": {
+                "listItems": [
+                    {
+                        "listItemIdentifier": "1",
+                        "ordinalNumber": 1,
+                        "textContent": {
+                            "primaryText": {
+                                "type": "PlainText",
+                                "text": "Practice"
+                            }
+                        },
+                        "token": "practice"
+                    },
+                    {
+                        "listItemIdentifier": "2",
+                        "ordinalNumber": 2,
+                        "textContent": {
+                            "primaryText": {
+                                "type": "PlainText",
+                                "text": "Leader Boards"
+                            }
+                        },
+                        "token": "leader_baord"
+                    },
+                    {
+                        "listItemIdentifier": "3",
+                        "ordinalNumber": 3,
+                        "textContent": {
+                            "primaryText": {
+                                "type": "PlainText",
+                                "text": "Rewards"
+                            }
+                        },
+                        "token": "rewards"
+                    },
+                    {
+                        "listItemIdentifier": "2",
+                        "ordinalNumber": 2,
+                        "textContent": {
+                            "primaryText": {
+                                "type": "PlainText",
+                                "text": "Badges"
+                            }
+                        },
+                        "token": "badges"
+                    }
+                ]
+            }
+        },
+        "logoUrl": "https://wisdomleap-hls-playback.s3.amazonaws.com/images/beGalileo_logo.png"
+    }
+}

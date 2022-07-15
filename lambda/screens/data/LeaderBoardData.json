@@ -1,0 +1,136 @@
+{
+    "bodyTemplate1Data": {
+        "type": "object",
+        "objectId": "bt1Sample",
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://wisdomleap-hls-playback.s3.amazonaws.com/images/03.jpg",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://wisdomleap-hls-playback.s3.amazonaws.com/images/03.jpg",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "title": "beGalileo",
+        "textContent": {
+            "primaryText": {
+                "type": "PlainText",
+                "text": "Leader Board"
+            }
+        },
+        "footerContent": {
+            "footerTitle": "Your Score : 42",
+            "footerBody": "YOU ARE 1193 POINTS AWAY FROM MAKING AN ENTRY TO THE LEADERBOARD"
+        },
+        "menuListData": {
+            "type": "list",
+            "listId": "lt1Sample",
+            "totalNumberOfItems": 10,
+            "listPage": {
+                "listItems": [
+                    {
+                        "listItemIdentifier": "0",
+                        "ordinalNumber": 0,
+                        "textContent": {
+                            "primaryText": {
+                                "type": "PlainText",
+                                "sno": "<b>Rank</b>",
+                                "name": "<b>Name</b>",
+                                "grade": "<b>Grade</b>",
+                                "points": "<b>Points</b>",
+                                "color": "#2BFF16"
+                            }
+                        },
+                        "token": "columnData"
+                    },
+                    {
+                        "listItemIdentifier": "1",
+                        "ordinalNumber": 1,
+                        "textContent": {
+                            "primaryText": {
+                                "type": "PlainText",
+                                "sno": "1",
+                                "name": "KRITI SINGH",
+                                "grade": "Grade 9",
+                                "points": "9963",
+                                "color": "white"
+                            }
+                        },
+                        "token": "rank1"
+                    },
+                    {
+                        "listItemIdentifier": "2",
+                        "ordinalNumber": 2,
+                        "textContent": {
+                            "primaryText": {
+                                "type": "PlainText",
+                                "sno": "2",
+                                "name": "PARIDHI BHAMBHANI",
+                                "grade": "Grade 7",
+                                "points": "4856",
+                                "color": "white"
+                            }
+                        },
+                        "token": "rank2"
+                    },
+                    {
+                        "listItemIdentifier": "3",
+                        "ordinalNumber": 3,
+                        "textContent": {
+                            "primaryText": {
+                                "type": "PlainText",
+                                "sno": "3",
+                                "name": "SAI ANISH G",
+                                "grade": "Grade 8",
+                                "points": "5443",
+                                "color": "white"
+                            }
+                        },
+                        "token": "rank3"
+                    },
+                    {
+                        "listItemIdentifier": "4",
+                        "ordinalNumber": 4,
+                        "textContent": {
+                            "primaryText": {
+                                "type": "PlainText",
+                                "sno": "4",
+                                "name": "MITHILA NARUTE",
+                                "grade": "Grade 6",
+                                "points": "2323",
+                                "color": "white"
+                            }
+                        },
+                        "token": "rank4"
+                    },
+                    {
+                        "listItemIdentifier": "5",
+                        "ordinalNumber": 5,
+                        "textContent": {
+                            "primaryText": {
+                                "type": "PlainText",
+                                "sno": "5",
+                                "name": "SHIVANSHU TANK",
+                                "grade": "Grade 3",
+                                "points": "7877",
+                                "color": "white"
+                            }
+                        },
+                        "token": "rank5"
+                    }
+                ]
+            }
+        },
+        "logoUrl": "https://s3-ap-southeast-1.amazonaws.com/tv-prod/member/photo/1760473-large.png"
+    }
+}

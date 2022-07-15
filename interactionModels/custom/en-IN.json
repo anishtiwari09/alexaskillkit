@@ -1,0 +1,415 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "be galileo",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop game",
+            "end game",
+            "quit",
+            "stop"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "yes",
+            "okay",
+            "ok"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "no"
+          ]
+        },
+        {
+          "name": "NumbersIntent",
+          "slots": [
+            {
+              "name": "myValue",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "{myValue}",
+            "Number {myValue}"
+          ]
+        },
+        {
+          "name": "ChooseClassIntent",
+          "slots": [
+            {
+              "name": "lessonOption",
+              "type": "LessonOption",
+              "samples": [
+                "{lessonOption}"
+              ]
+            }
+          ],
+          "samples": [
+            "{lessonOption}"
+          ]
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": [
+            "start over",
+            "play again"
+          ]
+        },
+        {
+          "name": "ChooseOptionIntent",
+          "slots": [
+            {
+              "name": "chooseOption",
+              "type": "ChooseOptionSlotType"
+            }
+          ],
+          "samples": [
+            "{chooseOption}"
+          ]
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "answer",
+              "type": "OptionSlotType"
+            }
+          ],
+          "samples": [
+            "{answer}",
+            "option {answer}",
+            "it\u0027s {answer}"
+          ]
+        },
+        {
+          "name": "OtherFeatureIntent",
+          "slots": [
+            {
+              "name": "choice",
+              "type": "OtherOptionSlotType"
+            }
+          ],
+          "samples": [
+            "{choice}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateSettingsIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageUpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollRightIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollLeftIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollUpIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "0",
+              "name": {
+                "value": "a",
+                "synonyms": [
+                  "yeh",
+                  "ehh",
+                  "eh",
+                  "hey"
+                ]
+              }
+            },
+            {
+              "id": "1",
+              "name": {
+                "value": "b",
+                "synonyms": [
+                  "bee",
+                  "second"
+                ]
+              }
+            }
+          ],
+          "name": "OptionSlotType"
+        },
+        {
+          "values": [
+            {
+              "id": "0",
+              "name": {
+                "value": "quiz"
+              }
+            },
+            {
+              "id": "1",
+              "name": {
+                "value": "video"
+              }
+            }
+          ],
+          "name": "PracticeSlotType"
+        },
+        {
+          "values": [
+            {
+              "id": "0",
+              "name": {
+                "value": "Start Game"
+              }
+            },
+            {
+              "id": "1",
+              "name": {
+                "value": "Read Instructions"
+              }
+            }
+          ],
+          "name": "GameOptionSlotType"
+        },
+        {
+          "values": [
+            {
+              "id": "0",
+              "name": {
+                "value": "Rewards"
+              }
+            },
+            {
+              "id": "1",
+              "name": {
+                "value": "Badges"
+              }
+            },
+            {
+              "id": "2",
+              "name": {
+                "value": "Leader Boards",
+                "synonyms": [
+                  "Leader Board"
+                ]
+              }
+            },
+            {
+              "id": "3",
+              "name": {
+                "value": "More"
+              }
+            },
+            {
+              "id": "4",
+              "name": {
+                "value": "Practice"
+              }
+            },
+            {
+              "id": "5",
+              "name": {
+                "value": "Main Menu"
+              }
+            }
+          ],
+          "name": "OtherOptionSlotType"
+        },
+        {
+          "values": [
+            {
+              "id": "0",
+              "name": {
+                "value": "play a quiz",
+                "synonyms": [
+                  "practice a quiz",
+                  "practice quiz",
+                  "recent quiz topics",
+                  "quiz"
+                ]
+              }
+            },
+            {
+              "id": "1",
+              "name": {
+                "value": "play a video",
+                "synonyms": [
+                  "practice a video",
+                  "practice video",
+                  "watch a video lesson",
+                  "recent video topics",
+                  "video",
+                  "video lesson"
+                ]
+              }
+            }
+          ],
+          "name": "ChooseOptionSlotType"
+        },
+        {
+          "values": [
+            {
+              "id": "0",
+              "name": {
+                "value": "zeroo"
+              }
+            }
+          ],
+          "name": "LessonOption"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "ChooseClassIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "lessonOption",
+              "type": "LessonOption",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            }
+          ]
+        },
+        {
+          "name": "AnswerIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "answer",
+              "type": "OptionSlotType",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {},
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.64480551420.828935490089.472212303376"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OtherFeatureIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "choice",
+              "type": "OtherOptionSlotType",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {},
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.1381557600352.1253628935360.949030804179"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ChooseOptionIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "chooseOption",
+              "type": "ChooseOptionSlotType",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {},
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.927672929245.788436653151.419090604650"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Slot.Validation.64480551420.828935490089.472212303376",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "sorry thats not a valid option please choose option a or option b"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.927672929245.788436653151.419090604650",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "this action is not supported in begalileo skill you can say practice a quiz or watch a video lesson or rewards or badges"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.1381557600352.1253628935360.949030804179",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "this action is not supported in begalileo skill you can say practice or watch a video lesson or rewards or badges"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "155"
+}

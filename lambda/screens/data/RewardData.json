@@ -1,0 +1,43 @@
+{
+    "bodyTemplate1Data": {
+        "type": "object",
+        "objectId": "bt1Sample",
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://wisdomleap-hls-playback.s3.amazonaws.com/images/02.jpg",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://wisdomleap-hls-playback.s3.amazonaws.com/images/02.jpg",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "title": "beGalileo",
+        "textContent": {
+            "primaryText": {
+                "type": "PlainText",
+                "text": "Rewards"
+            }
+        },
+        "menuListData": {
+            "type": "list",
+            "listId": "lt1Sample",
+            "totalNumberOfItems": 10,
+            "listPage": {
+                "available_coins": "Available Coins - 1335",
+                "coins_redeemed": "Coins Redeemed - 0",
+                "coins_earned_today": "Coins Earned Today - 0"
+            }
+        },
+        "logoUrl": "https://wisdomleap-hls-playback.s3.amazonaws.com/images/beGalileo_logo.png"
+    }
+}
